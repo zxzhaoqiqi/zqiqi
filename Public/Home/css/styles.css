@@ -1,0 +1,9 @@
+@charset "utf-8";
+/*** HEADER ***/
+#slider-container{position:relative;clear:both;height:600px;width:1200px;margin:0 auto;margin-top:30px;}
+#slider-container img{width:1200px;height:600px;border:8px solid #ccc;}
+#shadow-img-slider{height:5px;width:100%;position:absolute;top:0;left:0;background:url(../images/shadow-img-slider.png) repeat-x;z-index:30;}
+.box_skitter_large {width:1200px;height:600px;}
+
+.label_skitter{bottom:20px !important;left:40px !important;padding:0px 20px 20px 20px;background:url(../images/opacity-slider-text.png) repeat;}
+.label_skitter h3{margin:10px 0px;color:#FFFF1E;height:25px;line-height:25px;}

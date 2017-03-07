@@ -1,0 +1,145 @@
+[ 2016-04-17T20:43:46+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+SQL: SHOW COLUMNS FROM `zqiqi_article` [ RunTime:0.1290s ]
+SQL: SELECT * FROM `zqiqi_article` ORDER BY sendtime desc LIMIT 6   [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `zqiqi_article_tag` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=6 )  [ RunTime:0.0636s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=5 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=4 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=2 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zqiqi_project` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `zqiqi_project` ORDER BY psort desc  [ RunTime:0.0069s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\WWW\zqiqi.cn\App\Home\Controller\IndexController.class.php on line 30 and defined E:\WWW\zqiqi.cn\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\WWW\zqiqi.cn\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+
+[ 2016-04-17T20:46:37+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `zqiqi_article` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `zqiqi_article` ORDER BY sendtime desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `zqiqi_article_tag` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=6 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=5 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=4 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zqiqi_project` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `zqiqi_project` ORDER BY psort desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\WWW\zqiqi.cn\App\Home\Controller\IndexController.class.php on line 30 and defined E:\WWW\zqiqi.cn\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\WWW\zqiqi.cn\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.020691s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020878s ]
+SQL: SHOW COLUMNS FROM `zqiqi_category` [ RunTime:0.0874s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE ( pid=0 )  [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `zqiqi_article` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 1 LIMIT 1   [ RunTime:0.0681s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 2  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 3  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 11 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 11  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 12  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 13  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+SQL: SELECT * FROM `zqiqi_category` WHERE ( pid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 2  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 4  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 11 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 11  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 12 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 12  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 13  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Undefined index: cid E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' E:\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+SQL: SELECT * FROM `zqiqi_article` ORDER BY sendtime desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE ( pid=0 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 3  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 11 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 11  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 12  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 13  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zqiqi_tag` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `zqiqi_tag`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zqiqi_link` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `zqiqi_link`  [ RunTime:0.0083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.398790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.398872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002126s ]
+

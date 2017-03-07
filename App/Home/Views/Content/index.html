@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{$artData.title}</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+
+		<!-- 引入头部 -->
+		<include file="./App/Home/View/Common/header.html" />
+		<!-- 引入头部结束 -->
+		
+			</div>
+		</div>
+		
+		<!-- Main Wrapper -->
+			<div id="main-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+							
+							<!-- Portfolio -->
+								<section>
+									<div>
+										<div class="row">
+											<div class="8u skel-cell-mainContent">
+												
+												<!-- Content -->
+													<article class="box is-post">
+														
+														<header>
+															<h2>{$artData.title}</h2>
+															<span class="byline">{$artData.author}</span>
+														</header>
+														{$artData.content}
+													</article>
+
+											</div>
+											<div class="4u">
+												<!-- Sidebar -->
+												<section class="box">
+													<header>
+														<h3>Hot Article</h3>
+													</header>
+													<ul class="divided">
+														<art limit="5" order="click">
+														<li><a href="{:U('Content/index',array('aid'=>$field['aid']))}" style="text-decoration:none">{$field['title']}</a></li>
+														</art>
+													</ul>
+												</section>
+												<section class="box">
+													<header>
+														<h3>Category</h3>
+													</header>
+													<category >					
+														<a href="{:U('List/index',array('cid'=>$field['cid']))}" class="button" style="font-size:12px;margin-right:20px;margin-bottom:10px;">{$field.cname}({$field.total})</a>
+													</category>
+												</section>
+												<section class="box">
+													<header>
+														<h3>Tag</h3>
+													</header>
+													<tags>
+														<a href="{:U('List/index',array('tid'=>$field['tid']))}" class="button" style="font-size:12px;margin-right:20px;margin-bottom:10px;">{$field.tname}({$field.count})</a>
+													</tags>
+												</section>
+											</div>
+										</div>
+									</div>
+								</section>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- 引入底部 -->
+		<include file="./App/Home/View/Common/footer.html" />
+		
+		<!-- 引入底部结束 -->
+</body>
+</html>

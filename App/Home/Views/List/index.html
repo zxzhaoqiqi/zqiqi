@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>七七博客</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		
+		<!-- 引入头部 -->
+		<include file="./App/Home/View/Common/header.html" />
+		<!-- 引入头部结束 -->
+
+			</div>
+		</div>
+		<!-- Main Wrapper -->
+			<div id="main-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+								
+							<!-- Portfolio -->
+								<section>
+									<header class="major">
+										<h2>Serch Result</h2>
+									</header>
+									<div>
+										<div class="row">
+											<foreach name="artData" item="v">
+												<div class="4u" style="margin-bottom:20px;">
+												<section class="box">
+													<a href="{:U('Content/index',array('aid'=>$v['aid']))}" class="image image-full"><img src="__ROOT__/{$v.thumb}" alt="" style="with:375px;height:255px" /></a>
+													<header>
+														<h3>{$v.title}</h3>
+													</header>
+													<p style="height:80px;overflow:hidden">{$v.digest}</p>
+													<footer>
+														<a href="{:U('Content/index',array('aid'=>$v['aid']))}" class="button button-alt">查看更多</a>
+													</footer>
+												</section>
+												</div>
+											</foreach>
+											
+										</div>
+									</div>
+								</section>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<!-- Footer Wrapper -->
+		<!-- 引入底部 -->
+		<include file="./App/Home/View/Common/footer.html" />
+		
+		<!-- 引入底部结束 -->
+</body>
+</html>

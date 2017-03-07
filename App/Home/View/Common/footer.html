@@ -1,0 +1,64 @@
+<!--底部-->
+        <footer>
+            <div class="w100 foot">
+                <div class="container center">
+                    <p>ICP证：{$Think.config.WEB_ICP_NUMBER}
+    联系邮箱：{$Think.config.ADMIN_EMAIL}</p>
+                </div>
+            </div>
+        </footer>
+        <!--底部结束-->
+        <!-- 返回顶部 -->
+        <div id="to-top" ><i class="iconfont to-top">&#xe6a5;</i></div>
+        <style type="text/css">
+            #to-top{
+                text-align: center;
+                display: none;
+                width: 50px;
+                height: 50px;
+                /*background: url('__PUBLIC__/Home/Mobile/img/to-top.png') no-repeat;*/
+                background: #D9534F;
+                border-radius: 50%;
+                position: fixed;
+                bottom: 50px;
+                right: 50px;
+                transition: all 1s;
+                -webkit-transition:all 1s;
+                -moz-transition:all 1s;
+                -o-transition:all 1s; 
+                cursor: pointer;
+            }
+            #to-top .to-top{
+                font-weight: 600;
+                line-height: 48px;
+                font-size: 40px;
+            }
+            #to-top:hover{
+                /*transform: rotateY(360deg);
+                -webkit-transform: rotateY(360deg);
+                -moz-transform: rotateY(360deg);
+                -o-transform: rotateY(360deg);*/
+                opacity: .7; 
+            }
+        </style>
+        <script type="text/javascript">
+            $('#to-top').click(function () {
+                $('html,body').animate({
+                    scrollTop : 0
+                },1000)
+            })
+            var fix_nav = function () {
+                var scrollTop = $(window).scrollTop();
+                if(scrollTop > 0){
+                    $('#to-top').css('display','block');
+                }else{
+                    $('#to-top').css('display','none');
+                }
+            }
+            $(window).scroll(function () {
+                fix_nav();
+            })
+        </script>
+        <!-- 返回顶部结束 -->
+    </body>
+</html>

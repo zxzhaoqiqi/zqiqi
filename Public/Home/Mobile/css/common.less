@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@redBg:#D9534F;
+@sw:990px;
+@sw1:780px;
+body{
+    background: #f1f2f3;
+    color: white;
+}
+html{
+    font-size: 10px;
+    //iphone4和iphone5的分辨率
+    @media screen and (max-width:sw){
+        font-size: 7.5px;
+    }
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.w100{
+    width:100%;
+}
+.w66{
+    width: 66%;
+    box-sizing: border-box;
+}
+
+.w33{
+    width: 33%;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.bg-red{
+    background: @redBg;
+}
+img{
+//  max-width: 750px;
+    max-height: 300px;
+width: 100%;
+}
+//按钮样式
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+}
+.btn-black{    
+    margin-right: .5rem;
+    background: #3D4450;
+    padding: .2rem .5rem;
+    border-radius: .5rem;
+    &:hover{
+        background: @redBg;
+    }
+}
+.btn-more{
+    background: @redBg;
+    padding: .8rem 1.5rem;
+    border-radius: .3rem;
+    &:hover{
+        background: #BF3B37;
+    }
+}
+.btn-read{
+    background: @redBg;
+    border-radius: .5rem;
+    padding: .2rem .2rem;
+}
+.btn-left{
+    float: left;
+}
+.btn-right{
+    float: right;
+}
+//按钮样式结束
+.content{
+    
+    
+}
+.border{
+    border: 1px solid #FFF;
+    border-radius: .5rem;
+    background: white;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.icon.iconfont{
+    font-size: 1.3rem;
+    font-weight: 700;
+}

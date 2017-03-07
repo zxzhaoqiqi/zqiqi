@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+	    <!-- Loading Bootstrap -->
+	    <link href="__PUBLIC__/Admin/Flat/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+	    <!-- Loading Flat UI -->
+	    <link href="__PUBLIC__/Admin/Flat/dist/css/flat-ui.css" rel="stylesheet">
+	    <link href="__PUBLIC__/Admin/Flat/docs/assets/css/demo.css" rel="stylesheet">
+	    <link rel="shortcut icon" href="__PUBLIC__/Admin/Flat/img/favicon.ico">
+	    <style type="text/css">
+			li{
+				float: left;
+				list-style: none;
+				padding: 8px;
+			}
+			.page{
+				/*width: */
+				width: 500px;
+				height: 40px;
+				margin: 0 auto;
+			}
+			.page a.active{
+				font-size: 30px;
+			}
+	    </style>
+	    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	    <!--[if lt IE 9]>
+	      <script src="dist/js/vendor/html5shiv.js"></script>
+	      <script src="dist/js/vendor/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<table class="table table-hover">
+			<tr class="active">
+			  <th width="30">aid</th>
+			  <th>标题</th>
+			  <th width="200">上传时间</th>
+			  <th width="100">分类</th>
+			  <th width="200">操作</th>
+			</tr>
+			<foreach name="list" item="v">
+				<tr>
+					<td>{$v.aid}</td>
+					<td>{$v.title}</td>
+					<td>{$v.sendtime|date='Y-m-d H:i:s',###}</td>
+					<td>{$v.category_cid}</td>
+					<td>
+						<a href="{:U('recover', array('aid'=>$v['aid']))}" class="btn btn-sm btn-warning">还原</a>
+					
+						<a href="javascript:;" class="btn btn-sm btn-danger" onclick="if(confirm('确定要删除吗')) location.href='{:U('realdel',array('aid'=>$v['aid']))}'">删除</a>
+					</td>
+				</tr>
+			</foreach>
+
+		</table>
+		
+		<div class="page">{$page}</div>
+	
+		
+	</body>
+</html>

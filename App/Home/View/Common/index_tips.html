@@ -1,0 +1,11 @@
+                                        <div class="tips">
+                                            <foreach name="v['tag']['tname']" item="val" key="key">
+                                                <span class="btn-black btn  tip">
+                                                    <i class="icon iconfont">&#xe6c5;</i> 
+                                                    <a href="{:U('List/index',array('tid'=>$v[tag]['tid'][$key]))}" target="_block">{$val}</a>
+                                                </span>
+                                            </foreach>
+                                            <span class="con-time" style="padding: 0 10px;">发表时间：{$v['sendtime']|date='Y-m-d',###}</span>
+                                            <span class="con-author">作者：{$v['author']}</span>
+                                           <!--  <span class="con-click" style="padding-left: 10px;">浏览次数：{$v['click']}</span> -->
+                                        </div>

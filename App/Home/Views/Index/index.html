@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>七七博客</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		
+		<!-- 引入头部 -->
+		<link href="__PUBLIC__/Home/css/styles.css" rel="stylesheet" type="text/css" />
+		<link type="text/css" href="__PUBLIC__/Home/css/skitter.css" media="all" rel="stylesheet" />
+		<include file="./App/Home/View/Common/header.html" />
+		<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.skitter.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			
+				$(document).ready(function() {
+					$(".box_skitter_large").skitter({
+						animation: "random",
+						interval: 3000,
+						numbers: false, 
+						numbers_align: "right", 
+						hideTools: true,
+						controls: false,
+						focus: false,
+						focus_position: true,
+						width_label:'340px', 
+						enable_navigation_keys: true,   
+						progressbar: false
+					});
+				});				  
+								 
+			});
+		</script>
+		<!-- 引入头部结束 -->
+				
+					<div class="row">
+						<div class="12u">
+
+							<!-- Banner -->
+							<section id="banner">
+								<div id="slider-container">
+									<div class="box_skitter box_skitter_large" >
+										<ul>
+											<li>
+												<a href="{:U('Content/index',array('aid'=>3))}" target="_black"><img src="__PUBLIC__/Home/images/4.jpg" alt="" /></a>
+												<div class="label_text">
+													<h3 class="colortext uppercase"> 
+													转角  邂逅
+													</h3>
+													<span>每一个人心中都深藏着一个人，你不知道对方是否生活的好与不好，但有时候，你怀念的却只是一个简单的名字，一段简单的相遇。</span>
+												</div>
+											</li>
+											<li>
+												<a href="{:U('Content/index',array('aid'=>3))}" target="_black"><img src="__PUBLIC__/Home/images/2.jpg"alt="" /></a>
+												<div class="label_text">
+													<h3 class="colortext uppercase">
+													夕阳下的等待
+													</h3>
+													<span>
+													夕阳下你头也不回的走开，留下我风中雨中的等待
+													</span>
+												</div>
+											</li>
+											<li>
+												<a href="{:U('Content/index',array('aid'=>3))}" target="_black"><img src="__PUBLIC__/Home/images/3.jpg" alt="" /></a>
+												<div class="label_text">
+													<h3 class="colortext uppercase">天使的嫁衣
+													</h3>
+													<span>彩妆刷让你打造美丽妆容更加得心应手。彩妆刷已从专业造型师手中，
+													</span>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div id="shadow-img-slider"></div>
+								</div>
+							</section>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		<!-- Main Wrapper -->
+			<div id="main-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+								
+							<!-- Portfolio -->
+								<section>
+									<header class="major">
+										<h2>My Bloge</h2>
+									</header>
+									<div>
+										<div class="row">
+										<foreach name="artData" item="v">
+											<div class="4u" style="margin-bottom:20px;">
+												<section class="box">
+													<a href="{:U('Content/index',array('aid'=>$v['aid']))}" class="image image-full" target="_black"><img src="__ROOT__/{$v.thumb}" alt="" style="with:375px;height:255px" /></a>
+													<!-- <img src="{$v.thumb|getLogo=###,50,50}"/> -->
+													<!-- {$v.thumb|getLogo=###,150,150,'thumb_pic'} -->
+													<header>
+														<h3>{$v.title}</h3>
+													</header>
+													<p style="height:80px;overflow:hidden">{$v.digest}</p>
+													<footer>
+														<a href="{:U('Content/index',array('aid'=>$v['aid']))}" class="button button-alt">查看更多</a>
+													</footer>
+												</section>
+											</div>
+										</foreach>
+										</div>	
+									</div>
+								</section>
+
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+
+							<!-- Blog -->
+								<section>
+									<header class="major">
+										<h2>My Project</h2>
+									</header>
+									<div>
+										<div class="row">
+											<foreach name="proData" item="v">
+												<div class="6u" style="margin-bottom:50px;">
+													<section class="box">
+														<a href="http://{$_SERVER['SERVER_NAME']}/{$v.url}" class="image image-full" target="_black"><img src="__ROOT__/{$v.list}" alt="" style="height:300px" /></a>
+														<header>
+															<h3>{$v.pname}</h3>
+															<!-- <span class="byline">Posted 45 minutes ago</span> -->
+														</header>
+														<p style="height:130px;">{$v.digest}</p>
+														<!-- <footer class="actions">
+															<a href="#" class="button button-icon button-icon-1">Continue Reading</a>
+															<a href="#" class="button button-alt button-icon button-icon-2">33 comments</a>
+														</footer> -->
+													</section>
+												</div>
+											</foreach>
+										</div>
+										
+									</div>
+								</section>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<!-- Footer Wrapper -->
+		<!-- 引入底部 -->
+		<include file="./App/Home/View/Common/footer.html" />
+		
+		<!-- 引入底部结束 -->
+</body>
+</html>

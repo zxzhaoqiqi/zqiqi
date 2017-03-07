@@ -1,0 +1,393 @@
+[ 2016-04-12T20:35:48+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-04-12T20:36:01+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-04-12T20:36:37+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-04-12T20:36:38+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-04-12T20:36:38+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-04-12T20:40:57+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:40:58+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:40:59+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:40:59+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:40:59+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:00+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:00+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:00+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:00+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:00+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:01+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:01+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:01+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:01+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:01+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:01+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:02+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:02+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:02+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:02+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:02+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:03+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:41:03+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:43:56+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'zx_think_blog'
+
+[ 2016-04-12T20:55:46+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-04-12T20:55:58+08:00 ] ::1 /zqiqi.cn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `zqiqi_article` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `zqiqi_article` ORDER BY sendtime desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zqiqi_article_tag` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=6 )  [ RunTime:0.0391s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=5 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=4 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=2 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_article_tag` INNER JOIN zqiqi_tag ON tag_tid = tid  WHERE ( article_aid=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zqiqi_project` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `zqiqi_project` ORDER BY psort desc  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\phpStudy\WWW\zqiqi.cn\App\Home\Controller\IndexController.class.php on line 30 and defined D:\phpStudy\WWW\zqiqi.cn\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\phpStudy\WWW\zqiqi.cn\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.024641s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.024750s ]
+SQL: SHOW COLUMNS FROM `zqiqi_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE ( pid=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zqiqi_article` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 1 LIMIT 1   [ RunTime:0.0593s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 11 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 11  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 12  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 13  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 35 行.
+SQL: SELECT * FROM `zqiqi_category` WHERE ( pid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 11  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 12  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 13  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Undefined index: cid D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 53 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+NOTIC: [8] Use of undefined constant tag - assumed 'tag' D:\phpStudy\WWW\zqiqi.cn\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 89 行.
+SQL: SELECT * FROM `zqiqi_article` ORDER BY sendtime desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE ( pid=0 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 11  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 12 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 12  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article` WHERE `category_cid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zqiqi_category` WHERE `pid` = 13  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zqiqi_tag` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `zqiqi_tag`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zqiqi_article_tag` WHERE `tag_tid` = 12 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zqiqi_link` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zqiqi_link`  [ RunTime:0.0442s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.329619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.329705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.075772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.075915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004050s ]
+

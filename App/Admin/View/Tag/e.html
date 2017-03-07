@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Matrix Admin</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- 引入头部 -->
+<include file="./App/Admin/Common/header.html" />
+<!-- 引入头部结束 -->
+
+<div id="content">
+
+  <!-- 内容头部 -->
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="{:U('Index/index')}" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> 后台首页</a> <a href="#" class="current">标签编辑</a> </div>
+    <!-- <h1>标签展示页</h1> -->
+  </div>
+  <!-- 内容头部结束 -->
+
+  <!-- 正文 -->
+  <div class="container-fluid">
+  <hr>
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="widget-box full" >
+          <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+            <h5>标签添加</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <form method="post" class="form-horizontal" onsubmit="return hd_submit(this,'{:U('Admin/Tag/edit')}','{:U('Admin/Tag/index')}')">
+              <div class="control-group">
+                <label class="control-label">标签</label>
+                <div class="controls">
+                  <textarea class="span11" style="resize:none" name="tname">{$data.tname}</textarea>
+                  <input type="hidden" name="tid" value="{$Think.get.tid}">
+
+                </div>
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-success">提交</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>   
+  <!-- 正文结束 -->
+ </div>
+
+
+<!-- 引入底部 -->
+<include file="./App/Admin/Common/footer.html" />
+<!-- 引入底部结束 -->
+</body>
+</html>

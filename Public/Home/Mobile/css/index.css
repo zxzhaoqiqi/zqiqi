@@ -1,0 +1,453 @@
+header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999;
+}
+header .w100 {
+  background: #3D4450;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+header .w100 .nav-box {
+  overflow: hidden;
+  position: relative;
+}
+header .w100 .nav-box #logo {
+  float: left;
+}
+@media screen and (max-width: 990px) {
+  header .w100 .nav-box .big-nav {
+    display: none;
+  }
+}
+header .w100 .nav-box .big-nav li {
+  float: left;
+}
+header .w100 .nav-box .big-nav li a {
+  display: inline-block;
+  color: white;
+  padding: 2rem 1.5rem;
+  font-size: 1.3rem;
+}
+header .w100 .nav-box .nav-toggle {
+  display: none;
+  background: #000000;
+  float: right;
+  height: 3.8rem;
+  margin: .5rem;
+  line-height: 4.2rem;
+  border-radius: .4rem;
+}
+@media screen and (max-width: 990px) {
+  header .w100 .nav-box .nav-toggle {
+    display: block;
+  }
+}
+header .w100 .nav-box .nav-toggle i {
+  padding: 0 1.2rem;
+  font-size: 1.5rem;
+}
+header .w100 .nav-display-box {
+  display: none;
+  overflow: hidden;
+  background: #3D4450;
+  position: absolute;
+  top: 5.3rem;
+  left: 0;
+  width: 100%;
+}
+@media screen and (min-width: 990px) {
+  header .w100 .nav-display-box {
+    height: 0;
+    display: none;
+  }
+}
+header .w100 .nav-display-box ul:nth-child(1) {
+  border-top: 2px solid #000000;
+}
+header .w100 .nav-display-box .first-ul > li:hover {
+  background: #000000;
+}
+header .w100 .nav-display-box .first-ul > li:hover .hover-show {
+  display: block;
+  background: #333333;
+}
+header .w100 .nav-display-box .first-ul > li:hover .hover-show li:hover {
+  background: #D9534F;
+}
+header .w100 .nav-display-box .first-ul > li:hover .hover-show li:hover a {
+  font-size: 1.5rem;
+}
+header .w100 .nav-display-box .first-ul > li:nth-child(1) {
+  background: #D9534F;
+}
+header .w100 .nav-display-box .first-ul > li:nth-child(1):hover {
+  background: #D9534F;
+}
+header .w100 .nav-display-box .hover-show {
+  display: none;
+}
+header .w100 .nav-display-box ul {
+  padding: .5rem 0;
+}
+header .w100 .nav-display-box ul li i {
+  font-size: 1.3rem;
+  padding: 1rem;
+  display: inline-block;
+}
+header .w100 .nav-display-box ul li a {
+  width: 70%;
+  display: inline-block;
+  padding: 1rem 1rem;
+  color: white;
+  font-size: 1.2rem;
+}
+@keyframes hdshow {
+  0% {
+    height: 0px;
+    display: block;
+  }
+  100% {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 990px) and (min-width: 780px) {
+  main .container {
+    padding: 3%;
+  }
+}
+@media screen and (max-width: 780px) {
+  main .container {
+    padding: .4rem;
+  }
+}
+main .container .left {
+  padding: 2rem;
+  float: left;
+  color: #000000;
+}
+@media screen and (max-width: 780px) {
+  main .container .left {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 990px) and (min-width: 780px) {
+  main .container .left {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+main .container .left article .article .fade {
+  font-size: 1.2rem;
+  color: #3D4450;
+  line-height: 1.9rem;
+}
+main .container .left article .article .fade button {
+  float: right;
+  background: white;
+  font-size: 1.5rem;
+  line-height: 3.3rem;
+  border: none;
+}
+main .container .left article .article .border {
+  background: white;
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-bottom: 4rem;
+  border: 1px solid #FFF;
+  overflow: hidden;
+}
+main .container .left article .article .border h1 {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 5rem;
+  font-weight: 400;
+}
+main .container .left article .article .border .tips {
+  text-align: center;
+  padding: 1rem;
+}
+@media screen and (max-width: 990px) {
+  main .container .left article .article .border .tips {
+    text-align: left;
+  }
+  main .container .left article .article .border .tips .tip {
+    display: none;
+  }
+  main .container .left article .article .border .tips span {
+    background: none;
+    color: #3D4450;
+  }
+}
+main .container .left article .article .border .tips i {
+  margin: 1rem 0;
+}
+main .container .left article .article .border .tips a {
+  color: white;
+}
+main .container .left article .article .border .border-img img {
+  border: 1px solid white;
+  border-radius: .5rem;
+}
+main .container .left article .article .border .border-img:hover img {
+  opacity: .7;
+  border: 1px solid #BF3B37;
+  border-radius: .5rem;
+}
+main .container .left article .article .border .box-content {
+  font-size: 1.2rem;
+  padding: 1.5rem 1.3rem;
+  background: #EEEEEE;
+  border-radius: .5rem;
+  margin: 1.2rem 0;
+}
+main .container .left article .article .border .arc {
+  line-height: 1.8rem;
+  color: #666666;
+  overflow: hidden;
+  max-height: 5.5rem;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+main .container .left article .article .border .box-read-more {
+  margin-top: 1rem;
+}
+@media screen and (min-width: 990px) {
+  main .container .left article .article .border .read-more {
+    float: right;
+  }
+}
+@media screen and (max-width: 990px) {
+  main .container .left article .article .border .read-more {
+    display: block;
+    text-align: center;
+  }
+}
+main .container .left article .article .border .read-more .read {
+  background: white;
+  padding: 0rem .3rem;
+  color: #BF3B37;
+  font-weight: 700;
+  border-radius: .5rem;
+}
+main .container .right {
+  padding: 2rem;
+  float: left;
+  color: #000000;
+}
+@media screen and (max-width: 990px) {
+  main .container .right {
+    width: 100%;
+  }
+  main .container .right .serch input[name=serch] {
+    width: 85%;
+  }
+  main .container .right .serch .right-serch {
+    margin: .6rem 0;
+  }
+}
+@media screen and (max-width: 990px) and (min-width: 780px) {
+}
+main .container .right .login .login-form {
+  padding: 2rem 2rem;
+}
+main .container .right .login .login-form .form-group {
+  box-sizing: border-box;
+  padding-bottom: 1rem;
+  width: 100%;
+  overflow: hidden;
+}
+main .container .right .login .login-form .form-group button {
+  border: none;
+}
+main .container .right .login .login-form .form-group .btn-black {
+  width: 47%;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+main .container .right .login .login-form .form-group .input-group {
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid #DDDDDD;
+  border-radius: .5rem;
+}
+main .container .right .login .login-form .form-group .input-group .input-group-addon {
+  float: left;
+  background: #D9534F;
+  color: white;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+}
+main .container .right .login .login-form .form-group .input-group input {
+  height: 2.9rem;
+  width: 80%;
+  text-indent: 2rem;
+  display: block;
+  float: left;
+  min-width: 13.7rem;
+  border: none;
+}
+main .container .right .serch {
+  background: #808080;
+  width: 100%;
+}
+main .container .right .serch input[name=serch] {
+  margin: .5rem;
+  width: 70%;
+  font-size: 1rem 1rem;
+  padding: .8rem 1rem;
+  border: 1px solid #D9534F;
+  border-radius: .5rem;
+  float: left;
+}
+main .container .right .serch .right-serch {
+  float: right;
+  width: 15%;
+}
+main .container .right .serch .right-serch .btn-serch {
+  margin: .6rem 0 0;
+  padding: .7rem .9rem;
+}
+@media screen and (max-width: 990px) {
+  main .container .right .serch .right-serch .btn-serch {
+    margin: .2rem 0 0;
+    padding: .7rem .9rem;
+  }
+  main .container .right .serch .right-serch .btn-serch:hover {
+    margin-top: -5px;
+  }
+}
+main .container .right .serch .right-serch .btn-serch:hover {
+  padding: .6rem .8rem;
+  margin: .8rem 0 0;
+}
+main .container .right .border .title {
+  width: 100%;
+  background: #808080;
+  overflow: hidden;
+  height: 1rem;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+main .container .right .border .title .lefts {
+  float: left;
+  color: white;
+  width: 80%;
+}
+main .container .right .border .title .lefts i {
+  line-height: 1.5rem;
+}
+main .container .right .border .title .rights {
+  float: right;
+  color: white;
+  width: 19%;
+}
+main .container .right .border .title .rights i {
+  cursor: pointer;
+  background: white;
+  color: #000000;
+  border-radius: 0.6rem;
+  border: none;
+  margin-right: .2rem;
+}
+main .container .right .border .title .rights .more {
+  display: none;
+}
+main .container .right .border .art {
+  margin: 1rem .5rem;
+}
+main .container .right .border .art li {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid gray;
+  overflow: hidden;
+}
+main .container .right .border .art li a {
+  float: left;
+  color: #000000;
+}
+main .container .right .border .art li span {
+  float: right;
+  color: white;
+}
+main .container .right .tags-cloud .nav-pills {
+  padding: 1rem 1.2rem;
+  overflow: hidden;
+  border-bottom: 1px solid #EEEEEE;
+}
+main .container .right .tags-cloud .nav-pills li {
+  float: left;
+}
+main .container .right .tags-cloud .nav-pills li .bgred {
+  background: #D9534F;
+  color: white;
+  border-radius: .5rem;
+}
+main .container .right .tags-cloud .nav-pills li a {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #000000;
+  margin-right: .8rem;
+}
+// main .container .right .tags-cloud .nav-pills li a:hover {
+//   background: #D9534F;
+//   color: white;
+//   border-radius: .5rem;
+// }
+main .container .right .tags-cloud .bottom {
+  padding: 1rem 1.2rem;
+}
+// main .container .right .tags-cloud .bottom div {
+//   display: none;
+// }
+main .container .right .tags-cloud .bottom .category {
+  display: block;
+}
+main .container .right .tags-cloud .bottom .tag a {
+  font-size: 1.5rem;
+  padding: .3rem .6rem;
+  margin: .5rem;
+}
+.tags-cloud-show.link a{
+  display: block;
+  padding: 1rem 1.5rem; 
+}
+main .container .right .tags-cloud .bottom .tags-cloud-show.link li{
+  padding: 0;
+}
+main .container .right .tags-cloud .bottom .tag a:hover {
+  background: #F08080;
+}
+main .container .right .tags-cloud .bottom ul li {
+  padding: 1rem 1.5rem;
+}
+main .container .right .tags-cloud .bottom ul li:hover {
+  background: #D9534F;
+}
+main .container .right .tags-cloud .bottom ul li:hover a {
+  color: white;
+}
+main .container .right .tags-cloud .bottom ul li a {
+  color: #000000;
+}
+footer .foot {
+  background: #3D4450;
+  overflow: hidden;
+}
+footer .center p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5rem 0;
+}
+/*# sourceMappingURL=index.css.map */

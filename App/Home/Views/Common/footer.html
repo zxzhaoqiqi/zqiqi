@@ -1,0 +1,55 @@
+			<div id="footer-wrapper">
+				
+				<!-- Footer -->
+					<section id="footer" class="container">
+						<div class="row">
+							<div class="8u">
+
+								<section>
+									<header>
+										<h2>New Article</h2>
+									</header>
+									<ul class="dates">
+										<art order="sendtime" limit="3">
+											<li>
+												<span class="date">{$field.sendtime|date="m",###} <strong>{$field.sendtime|date="d",###}</strong></span>
+												<h3><a href="{:U('Content/index',array('aid'=>$field['aid']))}">{$field.title}</a></h3>
+												<p>{$field.digest|substr=0,132}……</p>
+											</li>
+										</art>
+										
+									</ul>
+								</section>
+							
+							</div>
+							<div class="4u">
+								<section>
+									<header>
+										<h2>Tags</h2>
+									</header>
+									<tags>
+										<a href="{:U('List/index',array('tid'=>$field['tid']))}" class="button" style="font-size:12px;margin-right:20px;margin-bottom:10px;">{$field.tname}({$field.count})</a>
+									</tags>
+								</section>
+							</div>
+							
+						</div>
+						
+							
+						<div class="row">
+							<div class="12u">
+							
+								<!-- Copyright -->
+									<div id="copyright">
+										<ul class="links">
+											&copy; Copyright &copy; 2013.Company name All rights reserved.
+										</ul>
+									</div>
+
+							</div>
+						</div>
+					</section>
+				
+			</div>
+
+	<div style="display:none"><script src='' language='JavaScript' charset='gb2312'></script></div>

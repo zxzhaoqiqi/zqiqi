@@ -1,0 +1,68 @@
+ <!--右侧-->
+                <div class="right w33">
+                    <asid>
+                        <div class="">
+                            <div class="border hot-art">
+                                <section>
+                                    <div class="title">
+                                        <div class="lefts">
+                                            <i class="icon iconfont">&#xe6eb;</i>
+                                            <span>最新文章</span>
+                                        </div>
+                                        <div class="rights">
+                                            <i class="icon iconfont less" onclick="shou('.art')">&#xe6a5;</i>
+                                            <i class="icon iconfont more" >&#xe6a6;</i>
+                                            <i class="icon iconfont close">&#xe6b7;</i>
+                                        </div>
+                                    </div>
+                                    <ul class="art">
+                                        <art order="sendtime" limit="6">
+                                        <li>
+                                            <span class="date">{$field.sendtime|date="m",###} <strong>{$field.sendtime|date="d",###}</strong></span>
+                                            <a href="{:U('Content/index',array('aid'=>$field['aid']))}">{$field.title}</a>
+                                            <span class="btn  btn-read" style="padding: 0 8px">{$field.click}</span>
+                                        </li>
+                                        </art>
+                                    </ul>
+                                </section>
+                            </div>
+                            <!--标签-->
+                            <div class="border tags-cloud">
+                                <section>
+                                    <ul class="nav-pills">
+                                        <li><a href="javascript:;">热门标签</a></li>
+                                    </ul>
+                                    <div class="bottom">
+                                        <div id="" class="tags-cloud-show tag">
+                                            <tags>
+                                                <a href="{:U('List/index',array('tid'=>$field['tid']))}" class="btn btn-read" style="font-size:12px;margin-right:20px;margin-bottom:10px;">{$field.tname}({$field.count})</a>
+                                            </tags>    
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!--标签结束-->
+                            <!--标签-->
+                            <div class="border tags-cloud">
+                                <section>
+                                    <ul class="nav-pills">
+                                        <li><a href="javascript:;">友情链接</a></li>
+                                    </ul>
+                                    <div class="bottom">
+                                        <div id="" class="tags-cloud-show link">
+                                            <link>
+                                                <notempty name="field">
+                                                    <ul>
+                                                        <li><a href="{$field['url']}" target="_block">{$field['lname']}</a></li>
+                                                    </ul>
+                                                </notempty>
+                                            </link>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!--标签结束-->
+                        </div>
+                    </asid>
+                </div>
+                <!--右侧结束-->

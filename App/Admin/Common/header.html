@@ -1,0 +1,89 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/bootstrap.min.css" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/fullcalendar.css" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/matrix-style.css" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/matrix-media.css" />
+<link href="__PUBLIC__/Admin/font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/jquery.gritter.css" />
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+<!-- 添加 -->
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/colorpicker.css" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/datepicker.css" />
+<link rel="stylesheet" href="__PUBLIC__/hdjs/hdjs.css" />
+<!-- 添加结束 -->
+<!-- 标签页 -->
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/uniform.css" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/select2.css" />
+<!-- 标签页结束 -->
+<style type="text/css">
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+</style>
+</head>
+<body>
+
+<!--Header-part-->
+<div id="header">
+  <h1><a href="dashboard.html">七七的博客</a></h1>
+</div>
+<!--close-Header-part--> 
+
+
+<!--top-Header-menu-->
+<div id="user-nav" class="navbar navbar-inverse">
+  <ul class="nav">
+    <li  class="dropdown" id="profile-messages" ><a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle"><i class="icon icon-user"></i>  <span class="text">{$_SESSION['mname']}</span><b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="{:U('Manage/changePwd')}"><i class="icon-key"></i>  修改密码</a></li>
+        <li class="divider"></li>
+        <li><a href="{:U('Manage/out')}"><i class="icon-user"></i>  退出</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<!--close-top-Header-menu-->
+<!--start-top-serch-->
+  
+<!--close-top-serch-->
+<!-- <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >免费模板</a></div> -->
+<!--sidebar-menu-->
+<div id="sidebar">
+  <ul>
+    <li class="submenu"><a href="#"><i class="icon icon-home"></i> <span>后台首页</span></a>
+      <ul>
+        <li><a href="{:U('Admin/Index/index')}"><i class="icon icon-fire"></i>  后台欢迎页面</a></li>
+        <li><a href="{:U('Home/Index/index')}"><i class="icon icon-globe"></i>  前台首页</a></li>
+      </ul>
+    </li>
+    <li class="submenu hover"><a href="#"><i class="icon icon-signal"></i> <span>分类</span></a>
+      <ul>
+        <li><a href="{:U('Admin/Category/index')}"><i class="icon icon-group"></i>  分类展示</a></li>
+        <li><a href="{:U('Admin/Category/add')}"><i class="icon icon-lemon"></i>  分类添加</a></li>
+      </ul>
+    </li>
+    <li class="submenu"><a href="#"><i class="icon icon-inbox"></i> <span>标签</span></a>
+      <ul>
+        <li><a href="{:U('Admin/Tag/index')}"><i class="icon icon-print"></i>  标签展示</a></li>
+        <li><a href="{:U('Admin/Tag/add')}"><i class="icon  icon-pushpin"></i>  标签添加</a></li>
+      </ul>
+    </li>
+    <li class="submenu"><a href="#"><i class="icon icon-fullscreen"></i> <span>文章</span></a>
+      <ul>
+        <li><a href="{:U('Admin/Article/index')}"><i class="icon  icon-columns"></i>  文章展示</a></li>
+        <li><a href="{:U('Admin/Article/add')}"><i class="icon  icon-list"></i>  文章添加</a></li>
+        <li><a href="{:U('Admin/Article/recyle')}"><i class="icon  icon-pushpin"></i>  回收站</a></li>
+      </ul>
+    </li>
+    <li class="submenu"><a href="#"><i class="icon icon-list"></i> <span>项目</span></a>
+      <ul>
+        <li><a href="{:U('Admin/Project/index')}"><i class="icon  icon-columns"></i>  项目展示</a></li>
+        <li><a href="{:U('Admin/Project/add')}"><i class="icon  icon-fullscreen"></i>  项目添加</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>

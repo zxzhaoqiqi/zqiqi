@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Matrix Admin</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- 引入头部 -->
+<include file="./App/Admin/Common/header.html" />
+<!-- 引入头部结束 -->
+
+<div id="content">
+
+  <!-- 内容头部 -->
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="{:U('Index/index')}" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="current">Tags-add</a> </div>
+    <!-- <h1>标签展示页</h1> -->
+  </div>
+  <!-- 内容头部结束 -->
+
+  <!-- 正文 -->
+  <div class="container-fluid">
+  <hr>
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="widget-box full" >
+          <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+            <h5>文章添加</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <form action="#" method="get" class="form-horizontal">
+              <div class="control-group">
+                <label class="control-label">文章名 :</label>
+                <div class="controls">
+                  <input type="text" class="span11" placeholder="First name" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">文章描述 :</label>
+                <div class="controls">
+                  <input type="text" class="span11" placeholder="Last name" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">文章摘要 :</label>
+                <div class="controls">
+                  <input type="password"  class="span11" placeholder="Enter Password"  />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">排序 :</label>
+                <div class="controls">
+                  <input type="text" class="span11" placeholder="Company name" />
+                </div>
+              </div>
+              
+              <div class="control-group">
+                <label class="control-label">分类</label>
+                <div class="controls">
+                  <select name="category">
+                    <option value="0">请选择</option>
+                    <option value="1">Second option</option>
+                  </select>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">标签</label>
+                <div class="controls">
+                  <label>
+                    <input type="checkbox" name="radios" />
+                    热门</label>
+                  <label>
+                    <input type="checkbox" name="radios" />
+                    火爆</label>
+                  
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">标签</label>
+                <div class="controls">
+                  <textarea class="span11" style="resize:none"></textarea>
+                </div>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-success">Save</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>   
+    
+      
+     
+  
+  <!-- 正文结束 -->
+
+ </div>
+
+
+<!-- 引入底部 -->
+<include file="./App/Admin/Common/footer.html" />
+<!-- 引入底部结束 -->
+</body>
+</html>

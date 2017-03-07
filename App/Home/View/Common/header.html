@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{$Think.config.WEB_NAME}</title>
+        <!--移动端设置-->
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta property="qc:admins" content="171255133211636" />
+        <link rel="shortcut icon" type="image/x-icon" href="zqiqi.ico" />
+        <block name="des">
+            <meta name="keywords" content="{$Think.config.WEB_KEYWORDS}" />
+            <meta name="description" content="{$Think.config.WEB_DESCRIPTION}" />
+            <meta name="author" content="zqiqi,{$Think.config.ADMIN_EMAIL}">
+        </block>
+        <block name="otherCss">
+            <link rel="stylesheet" href="__PUBLIC__/Home/Mobile/font/iconfont.css">
+            <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Mobile/css/common.css"/>
+            <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/Mobile/css/index.css"/>
+        </block>
+        <block name="otherJs">
+            <script src="__PUBLIC__/Home/Mobile/js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+            <script src="__PUBLIC__/Home/Mobile/js/index.js" type="text/javascript" charset="utf-8" defer="defer"></script>
+        </block>
+    </head>
+    <body>
+    <!--头部-->
+    <script type="text/javascript">
+        $(function () {
+            $('main').css({'margin-top' : $('header').height() + 'px'});
+        })
+    </script>
+        <header>
+            <div class="w100">
+                <nav>
+                    <div class="container nav-box">
+                        <div id="logo">
+                            <a href="{:U('Index/index')}"><img src="__PUBLIC__/Home/Mobile/img/logo.png" alt="" /></a>
+                        </div>
+                        <ul class="big-nav">
+                            <li <if condition="MODULE_NAME eq 'Home' and CONTROLLER_NAME eq 'Index' and ACTION_NAME eq 'index'">class="bg-red"</if>>
+                                <a href="{:U('Index/index')}">首页</a>
+                            </li>
+                            <category limit="5" order="sendtime desc" pid="0">
+                                <li <if condition="$_GET['cid'] eq $field['cid']">class="bg-red"</if>>
+                                    <a href="{:U('List/index',array('cid'=>$field['cid']))}">{$field.cname}</a>
+                                </li>
+                            </category> 
+                        </ul>
+                        <block name="oauth-login"><include file="Common:common_login" /></block>
+                        <div class="nav-toggle">
+                                <i class="icon iconfont">&#xe696;</i>
+                        </div>
+                    </div>
+                    <div class="nav-display-box">
+                        <ul class="first-ul">
+                            <li <if condition="MODULE_NAME eq 'Home' and CONTROLLER_NAME eq 'Index' and ACTION_NAME eq 'index'">class="bg-red"</if>>
+                                <a href="{:U('Index/index')}">首页</a>
+                            </li>
+                           
+                            <category limit="4" order="sendtime desc" pid="0">
+                                <li <if condition="$_GET['cid'] eq $field['cid']"> class="current_page_item" </if>>
+                                    <a href="{:U('List/index',array('cid'=>$field['cid']))}">{$field.cname}</a>
+                                    <if condition="$field['son']">
+                                        <ul class="hover-show">
+                                            <foreach name="field['son']" item="v">
+                                                <li><a href="{:U('List/index',array('cid'=>$v['cid']))}">{$v.cname}</a></li>
+                                            </foreach>
+                                        </ul>
+                                    </if>
+                                </li>
+                            </category>
+                        </ul>   
+                    </div>
+                    
+                </nav>
+            </div>
+        </header>
+        <!--头部结束-->

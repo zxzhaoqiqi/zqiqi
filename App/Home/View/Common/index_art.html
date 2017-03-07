@@ -1,0 +1,19 @@
+                            <foreach name="artData" item="v">
+                            <if condition="$v">
+                                <div class="border">
+                                    <section>
+                                        <h1>{$v.title}</h1>
+                                        <block name="index_tips"><include file="Common:index_tips" /></block>
+                                        <a href="{:U('Content/index',array('aid'=>$v['aid']))}" class="border-img" target="_black"><img src="__ROOT__/{$v.thumb}" alt=""/></a>
+                                        <div class="box-content">
+                                            <p class="content arc">{$v.digest}</p></p>
+                                            
+                                        </div>
+                                        <a href="{:U('Content/index',array('aid'=>$v['aid']))}" class="btn btn-more read-more" target="_black">
+                                            阅读更多
+                                            <span class="read">{$v.click}</span>
+                                        </a>
+                                    </section>
+                                </div>
+                            </if>
+                            </foreach>

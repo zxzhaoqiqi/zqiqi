@@ -1,0 +1,42 @@
+                            <div class="border">
+                                <section>
+                                    <h1>{$artData.title}</h1>
+                                    <block name="content_tips"><include file="Common:content_tips" /></block>
+                                    <div class="text-content">
+                                        <p class="">{$artData.content}</p></p>
+                                    </div>
+                                    <if condition="$pre OR $next">
+                                        <div class="relation-art">
+                                            <if condition="$pre">
+                                                <p class="pre">
+                                                    <span class="col-1">上一篇</span><a href="{:U('Content/Index',array('aid'=>$pre['aid']))}">{$pre['title']}</a>
+                                                </p>
+                                            </if>
+                                            <if condition="$next">
+                                                <p class="next">
+                                                    <span class="col-1">上一篇</span><a href="{:U('Content/Index',array('aid'=>$next['aid']))}">{$next['title']}</a>
+                                                </p>
+                                            </if>
+                                        </div>
+                                    </if>
+                                </section>
+                            </div>
+                            <style type="text/css">
+                                .text-content{
+                                    font-size: 1.4rem;
+                                    padding: 2rem 0;
+                                }
+                                .text-content p{
+                                    line-height: 3.0rem;
+                                    color: #3d4450;
+                                }
+                                .relation-art{
+                                    font-size: 1.4rem;
+                                }
+                                .relation-art p{
+                                    line-height: 2.5rem;
+                                }
+                                .relation-art .col-1{
+                                    color: #d9534f;
+                                }
+                            </style>

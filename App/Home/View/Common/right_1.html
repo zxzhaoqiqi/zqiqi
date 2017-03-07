@@ -1,0 +1,113 @@
+ <!--右侧-->
+                <div class="right w33">
+                    <asid>
+                        <div class="">
+                            <!-- <div class="border login">
+                                <section>
+                                    <div class="title">
+                                        <div class="lefts">
+                                            请登录
+                                        </div>
+                                    </div>
+                                    <form action="" method="" class="login-form">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-addon">
+                                                    <i class="icon iconfont">&#xe726;</i>
+                                                </div>
+                                                <input type="text" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-addon">
+                                                    <i class="icon iconfont">&#xe6e1;</i>
+                                                </div>
+                                                <input type="password" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-black btn-left" name="submit" type="submit">登录</button>
+                                            <a href="" class="btn btn-black btn-right">注册</a>
+                                        </div>
+                                    </form>
+                                        
+                                </section>
+                            </div>
+                            <div class="border serch ">
+                                <section>
+                                    <input type="text" name="serch" id="" value="" placeholder="请输入..."/>
+                                    <div class="right-serch">
+                                        <a href="" class="btn btn-more btn-serch"><i class="icon iconfont">&#xe6ac;</i></a>
+                                    </div>
+                                </section>
+                            </div> -->
+                            <div class="border hot-art">
+                                <section>
+                                    <div class="title">
+                                        <div class="lefts">
+                                            <i class="icon iconfont">&#xe6eb;</i>
+                                            <span>最新文章</span>
+                                        </div>
+                                        <div class="rights">
+                                            <i class="icon iconfont less" onclick="shou('.art')">&#xe6a5;</i>
+                                            <i class="icon iconfont more" >&#xe6a6;</i>
+                                            <i class="icon iconfont close">&#xe6b7;</i>
+                                        </div>
+                                    </div>
+                                    <ul class="art">
+                                        <art order="sendtime" limit="6">
+                                        <li>
+                                            <span class="date">{$field.sendtime|date="m",###} <strong>{$field.sendtime|date="d",###}</strong></span>
+                                            <a href="{:U('Content/index',array('aid'=>$field['aid']))}">{$field.title}</a>
+                                            <span class="btn  btn-read" style="padding: 0 8px">{$field.click}</span>
+                                        </li>
+                                        </art>
+                                    </ul>
+                                </section>
+                            </div>
+                            <!--标签-->
+                            <div class="border tags-cloud">
+                                <section>
+                                    <ul class="nav-pills">
+                                        <li><a href="javascript:;" class="bgred">热门分类</a></li>
+                                        <li><a href="javascript:;">热门标签</a></li>
+                                        <li><a href="javascript:;">友情链接</a></li>
+                                    </ul>
+                                    <div class="bottom">
+                                        <div id="" class="tags-cloud-show category">
+                                            <ul>
+                                                <category limit="3" order="sendtime desc" pid="0">
+                                                    <li>
+                                                        <a href="{:U('List/index',array('cid'=>$field['cid']))}">{$field.cname}</a>
+                                                    </li>
+                                                    <!-- <if condition="$field['son']">
+                                                        <foreach name="field['son']" item="v">
+                                                            <li><a href="{:U('List/index',array('cid'=>$v['cid']))}">{$v.cname}</a></li>
+                                                        </foreach>
+                                                    </if> -->
+                                                </category>
+                                            </ul>
+                                        </div>
+                                        <div id="" class="tags-cloud-show tag">
+                                            <tags>
+                                                <a href="{:U('List/index',array('tid'=>$field['tid']))}" class="btn btn-read" style="font-size:12px;margin-right:20px;margin-bottom:10px;">{$field.tname}({$field.count})</a>
+                                            </tags>    
+                                        </div>
+                                        <div id="" class="tags-cloud-show link">
+                                            <link>
+                                                <notempty name="field">
+                                                    <ul>
+                                                        <li><a href="{$field['url']}" target="_block">{$field['lname']}</a></li>
+                                                    </ul>
+                                                </notempty>
+                                            </link>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!--标签结束-->
+                        </div>
+                    </asid>
+                </div>
+                <!--右侧结束-->
